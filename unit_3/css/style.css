@@ -1,0 +1,67 @@
+
+
+
+nav{
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+nav a{ 
+	margin-top: 500px;
+	padding:50px;
+	text-decoration:none;
+	color: black;
+    font-family: tahoma ,Arial;
+}
+
+
+h1{
+	font-family:Tahoma , Arial ;
+	font-size: 50px;
+}
+
+	 
+p{
+	margin: 70px;
+}
+
+
+body{
+	text-align: center;
+
+}
+
+
+.size{
+	font-size:30px;
+	font-weight: bold;
+
+}
+
+
+#maryam { 
+
+	background:url("../image/background.jpg") no-repeat center center fixed; 
+	background-size:cover;
+	padding:160px 0;
+}
+
+#sociallinks{
+
+    margin: 20px;
+    padding: 30px;
+
+}
+
+
+img {
+	width: 20px;
+}
+
+
+
+
+
+
+
+
