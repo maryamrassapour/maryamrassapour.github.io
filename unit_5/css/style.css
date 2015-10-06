@@ -1,0 +1,81 @@
+
+
+header{
+	margin:0px;
+	padding:20px;
+    border: 1px solid black;
+}
+
+
+a{
+	text-decoration: none;
+
+}
+
+a:hover{
+     background-color: yellow;
+
+}
+
+
+nav a{
+
+text-decoration: none;
+padding: 10px;
+}
+
+h1{
+
+	margin: 0px;
+	padding: 10px;
+	border:1px solid black;
+
+}
+
+#main{
+	margin: 0;
+	padding: 0px;
+	border: 1px solid black;
+}
+
+#obama{
+	border: 1px solid black;
+    margin: 0;
+}
+
+#girl{
+
+	border: 1px solid black;
+	margin:0;
+
+}
+
+#moon{
+
+	border: 1px solid black;
+	margin:0;
+}
+
+#bus{
+
+	border: 1px solid black;
+	margin:0;
+
+}
+
+#sociallinks{ 
+
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
