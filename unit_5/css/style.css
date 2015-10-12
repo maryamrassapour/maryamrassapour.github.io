@@ -1,81 +1,197 @@
 
 
-header{
-	margin:0px;
-	padding:20px;
-    border: 1px solid black;
+
+
+a:hover{
+    color:#8094A8;
+
 }
 
 
 a{
-	text-decoration: none;
+   
+   text-decoration: none;
+   color:#002952;
+   font-family: Arial ,sans-serif;
+	padding:10px;
+	font-size: 16px;
+}
+ 
+
+header{
+
+	background-color:#FAF0FF;
 
 }
 
-a:hover{
-     background-color: yellow;
+
+
+nav {
+   margin-left:850px;	
+   margin-bottom:0px;
+   text-decoration: none;
+   padding:20px;
+   padding-left:0px;
+}
+
+h1{ 
+
+	font-size:30px;
+	font-family:'montserra',serif;
+	color: white;
+    background-image: url("../image/biden.jpg");
+	background-size:cover;
+	padding:160px;
+	margin-left:40px;
+}
+ 
+h2{
+   padding-top:0px;	
+   font-family:'montserra',serif;
+   font-size:25px;
+   margin-left:0px;
 
 }
 
 
-nav a{
 
-text-decoration: none;
-padding: 10px;
-}
+aside {
 
-h1{
+    float: right;
+	font-size:14px;
+	width:300px;
+	padding:5px;
+	margin-left:0px;
 
-	margin: 0px;
-	padding: 10px;
-	border:1px solid black;
 
 }
 
+
+
+p{
+   padding:0px;
+   line-height:50px;
+   margin: 0px;
+
+}
+
+figure{
+	margin-top: 0px;
+	background:#F0FAFF;
+    height:217px;
+    width:1600px;
+ }
+
+figcaption{
+	padding:20px;
+	margin:20px;
+    font-weight:1000px;
+	font-family: Montserrat ,serif;
+	font-size: 18px;
+	padding-top:10px;
+	padding:30px;
+	margin:60px;
+	margin-right:0px;
+	margin-left:400px;
+	line-height: 28.888px;
+    
+}
+
+footer{
+
+	background-color: #FAF0FF;
+}
+      
+#logo{
+	float: left;
+	padding: 20px;
+	padding-left:45px;
+}
+
+#banner{
+
+padding-top: 30px;
+
+}
+ 
+ #wrapper{
+ 	background-color:#F0FAFF;
+ 	margin-bottom:0px;
+ 	padding:0px;
+ }
+
+#content{
+	float: left;
+     margin: 0px;
+      padding:0px; 
+}
+  
 #main{
+	height:350px;
 	margin: 0;
 	padding: 0px;
-	border: 1px solid black;
+	width:200px;
 }
 
 #obama{
-	border: 1px solid black;
-    margin: 0;
+	float: left;
+    margin-left:0px;
+
 }
 
-#girl{
 
-	border: 1px solid black;
+#girl{
 	margin:0;
+	float:left;
 
 }
 
 #moon{
 
-	border: 1px solid black;
 	margin:0;
+	float: left;
 }
+
 
 #bus{
 
-	border: 1px solid black;
 	margin:0;
+	float: left;
 
 }
 
 #sociallinks{ 
 
-    border: 1px solid black;
-    padding: 20px;
-    margin: 0;
+     margin-left: 100px;
+     padding: 40px;
+     margin: 0;
+     padding-left: 150px;
+     float: left;
 }
 
+#map{ 
 
+    padding-left: 900px;
+    padding-top: 30px;
+    line-height:30px;
 
+}
 
+.info{
+	font-size:16px;
+	color:#93CAE6;
+}
 
+.clearfix:after{
 
+	visibility:hidden;
+	display:block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0
 
+}
 
 
 
