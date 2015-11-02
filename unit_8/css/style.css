@@ -1,5 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
 
 
 a:hover{
@@ -24,32 +29,44 @@ header{
 
 }
 
+label{
+	display: none;
+	color:#002952;
+   	font-family: Arial ,sans-serif;
+	padding:10px;
+	font-size: 16px;
+	padding-top:10px;
+	margin:auto;
 
+}
 
 nav {
-   margin-left:850px;	
+	float:right;
+   /*margin-left:850px;	*/
    margin-bottom:0px;
    text-decoration: none;
-   padding:20px;
-   padding-left:0px;
+   padding:30px 4.5%;
+/*   padding-left:0px;
+   padding-top: 30px;*/
 }
 
 h1{ 
 
 	font-size:30px;
-	font-family:'montserra',serif;
+	font-family:'Montserrat',serif;
 	color: white;
-    background-image: url("../image/biden.jpg");
-	background-size:cover;
 	padding:160px;
 	margin-left:40px;
 }
  
 h2{
-   padding-top:0px;	
-   font-family:'montserra',serif;
+   padding-top:0px;
+   padding-left:15px;	
+   font-family:'Montserrat',serif;
    font-size:25px;
    margin-left:0px;
+   margin-bottom: 10px;
+
 
 }
 
@@ -59,14 +76,21 @@ aside {
 
     float: right;
 	font-size:14px;
-	width:30%;
-	padding:5px;
+	width:20%;
+	/*border:1px solid #000;*/
+	padding:15px;
 	margin-left:0px;
 
 
 }
 
+ul{
+	list-style: none;
+}
 
+li{
+	padding:15px;
+}
 
 p{
    padding:0px;
@@ -76,24 +100,29 @@ p{
 }
 
 figure{
-	margin-top: 0px;
+	margin-top:10px;
+	margin-left: 10px;
 	background:#F0FAFF;
-    height:217px;
+    height:270px;
     width:1600px;
+    padding:15px;
+    padding-left:55px;
+    margin-bottom:10px;
+    
  }
 
 figcaption{
-	padding:20px;
-	margin:20px;
+	
+	margin:10px;
     font-weight:1000px;
 	font-family: Montserrat ,serif;
 	font-size: 18px;
-	padding-top:10px;
-	padding:30px;
+	padding-top:0px;
 	margin:60px;
 	margin-right:0px;
-	margin-left:400px;
+	margin-left:430px;
 	line-height: 28.888px;
+	margin-bottom:50px;
     
 }
 
@@ -108,20 +137,25 @@ footer{
 	padding-left:45px;
 }
 
-#banner{
-
-padding-top: 30px;
-
+#menu{
+	display: none;
 }
  
  #wrapper{
+ 	width:90%;
+ 	margin:auto;
  	background-color:#F0FAFF;
- 	margin-bottom:0px;
+ 	/*border:1px solid #000;*/
+ 	/*margin-bottom:0px;*/
  	padding:0px;
  }
 
 #content{
+	background-image: url("../image/biden.jpg");
+	background-size:cover;
 	float: left;
+	/*border:1px solid #000;*/
+	width:80%;
      margin: 0px;
       padding:0px; 
 }
@@ -136,6 +170,8 @@ padding-top: 30px;
 #obama{
 	float: left;
     margin-left:0px;
+    margin-top:10px;
+
 
 }
 
@@ -143,6 +179,7 @@ padding-top: 30px;
 #girl{
 	margin:0;
 	float:left;
+	margin-top:10px;
 
 }
 
@@ -150,6 +187,7 @@ padding-top: 30px;
 
 	margin:0;
 	float: left;
+	margin-top:10px;
 }
 
 
@@ -157,6 +195,7 @@ padding-top: 30px;
 
 	margin:0;
 	float: left;
+	margin-top: 10px;
 
 }
 
@@ -190,6 +229,120 @@ padding-top: 30px;
 	content: " ";
 	clear: both;
 	height: 0
+
+}
+
+
+@media screen and (max-width:1120px){
+	aside{
+		width:25%;
+	}
+
+	h1{
+		padding:15%;
+		margin:0;
+	}
+
+	#content{
+		width:75%;
+		height: 408px;
+	}
+}
+
+
+@media screen and (max-width:940px){
+	aside{
+		width:100%;
+		float:none;
+	}
+
+	h2{
+		text-align: center;
+	}
+
+	li{
+		display: inline-block;
+	}
+
+	#content{
+		width:100%;
+		float:none;
+		height:auto;
+	}
+}
+
+@media screen and (max-width:540px){
+	label{
+		display: block;
+		text-align: center;
+	}
+
+	nav{
+		display: none;
+		margin:15px 0;
+		float: none;
+		/*clear: both;*/
+	}
+
+	nav a{
+		display: block;
+		text-align: center;
+
+	}
+	#menu:checked + nav{
+		display: block;
+	}
+
+	#logo{
+		float:none;
+		display: block;
+		margin:auto;
+	}
+}
+ 
+
+@media screen and (max-width:540px) {
+
+
+figure{
+
+		margin-left:20px;
+	   
+	
+ }
+
+
+}
+
+
+@media screen and (max-width:540px){
+
+footer{
+
+	height:400px;
+	margin-left:20px;
+	width:500px;
+}
+
+
+#sociallinks{
+     display: block;
+     margin-left:10px;
+     padding:40px;
+     margin: 0;
+    float:none;
+
+}
+
+#map{
+	font:none;
+	padding-left:100px;
+    padding-top: 10px;
+    line-height:30px;
+    padding-left:150px;
+
+
+}
 
 }
 
