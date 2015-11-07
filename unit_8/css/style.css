@@ -221,6 +221,26 @@ footer{
 
 
 
+@media screen and (max-width:1057px){
+
+
+#map{
+
+	float:none;
+    padding-top:70px;
+    line-height:30px;
+    padding-left:500px;
+
+}
+
+
+
+
+}
+
+
+
+
 
 @media screen and (max-width:1120px){
 	aside{
